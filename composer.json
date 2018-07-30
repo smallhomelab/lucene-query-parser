@@ -1,0 +1,20 @@
+{
+    "name": "smallhomelab/lucene-query-parser",
+    "type": "library",
+    "description": "Basic Lucene Query Parser for Search and Filter",
+    "autoload": {
+        "psr-4": {
+            "LuceneQueryParser\\": "src/"
+        },
+        "exclude-from-classmap": [
+            "/Tests/"
+        ]
+    },
+    "require": {
+        "php": "^7.1.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6.0",
+        "symfony/var-dumper": "^4.1"
+    }
+}
